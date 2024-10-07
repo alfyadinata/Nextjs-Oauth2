@@ -39,8 +39,6 @@ Ensure that you replace the values of GOOGLE_CLIENT_ID and GOOGLE_CLIENT_KEY wit
 
 Start the development server:
 
-bash
-Copy code
 npm run dev
 
 3. **Set Up Google OAuth Credentials**
