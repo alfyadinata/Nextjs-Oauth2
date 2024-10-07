@@ -10,8 +10,8 @@ import {
   Chip,
   Divider,
   Paper,
-  Link,
 } from "@mui/material";
+import Link from "next/link";
 
 const UserDetail = async ({ params }: { params: { id: number } }) => {
   const user = await findOneUser(params.id);
@@ -115,6 +115,7 @@ const UserDetail = async ({ params }: { params: { id: number } }) => {
                 <Link
                   href="/users"
                   style={{ textDecoration: "none", width: "100%" }}
+                  passHref
                 >
                   <Button fullWidth variant="outlined">
                     Back to List User
