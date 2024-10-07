@@ -29,8 +29,8 @@ npm install
 env
 Copy code
 NEXT_PUBLIC_API_BASE_URL=https://reqres.in/api
-GOOGLE_CLIENT_ID=1038501100162-urah06b81f9t30fsfi6q1fg9thkil411.apps.googleusercontent.com
-GOOGLE_CLIENT_KEY=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
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_KEY=
 NEXT_PUBLIC_AUTH_URL=http://localhost:3000
 NEXTAUTH_SECRET=bb0f32bc75293be24a0a7f77ecc6844d8038298b5903fe5bf67e69d3cbb55273
 Ensure that you replace the values of GOOGLE_CLIENT_ID and GOOGLE_CLIENT_KEY with your actual Google OAuth credentials.
